@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     text-align: center;
     margin-bottom: 60px;
@@ -32,7 +32,57 @@ h2 {
     font-size: 16px;
     text-align: center;
     border-bottom: 2px solid white;
-    padding: 0px 0px 10px 0px;
-    width: min-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
     cursor: pointer;
+}
+
+h2:hover {
+    background: #65a1835e;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+table {
+    display: table;
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    color: grey;
+}
+
+#clube {
+    text-align: left;
+}
+
+tbody tr, td {
+    text-align: center;
+}
+
+tbody tr {
+    cursor: pointer;
+    height: 60px;
+}
+
+tbody tr:hover {
+    background: #58575781;
+}
+
+.primeiros {
+    border-left: 4px solid blue;
+}
+
+.segundos {
+    border-left: 4px solid orange;
 }
