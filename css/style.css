@@ -90,3 +90,7 @@ tbody tr:hover {
 .terceiros {
     border-left: 4px solid green;
 }
+
+.rebaixamento {
+    border-left: 4px solid red;
+}
